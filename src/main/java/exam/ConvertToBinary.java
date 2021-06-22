@@ -58,9 +58,12 @@ public class ConvertToBinary {
     // Driver code 
 
     public static void main(String[] args) 
-
-    { 
+     { 
         String s = "Hello"; 
         strToBinary(s); 
-    } 
+     } 
+    if (a < 0)
+     {
+       System.out.println(" Negative Value ");
+     }
 }

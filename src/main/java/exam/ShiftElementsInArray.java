@@ -37,8 +37,11 @@ public class ShiftElementsInArray {
         int main ()
         {
             int x ;
-            System.out.println ("1 1 1 1 2");
-            System.out.println ("1 1 1 2");
-   
+            System.out.println ("1 1 1 1 2",x);
+            System.out.println ("1 1 1 2",x);
+            System.out.println ("1 2 2",x);
+            System.out.println ("1 1 3",x);
+            System.out.println ("2 3",x);
+        }
     }    
 }    

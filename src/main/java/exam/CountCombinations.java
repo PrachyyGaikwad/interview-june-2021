@@ -17,7 +17,6 @@ public class CountCombinations {
     {
         return 2;
     }
-
     else
     {
         return ways(n-1) + ways(n-2);
@@ -28,7 +27,14 @@ public class CountCombinations {
 
 public static void main (String[] args) 
 {
-    int n = 5;
+    int n = 5, rev = 0;
+
+    while(number != 0)   
+   {       
+      int remainder = n % 10;  
+      reverse = reverse * 10 + remainder;  
+      n = n/10;  
+   }  
    System.out.println("Number of ways = "+ ways(n));
 }
 }
